@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">简约记账</string>
+    <string name="edit_content">记一笔</string>
+    <string name="mount_out">本月支出</string>
+    <string name="mount_in">本月收入</string>
+    <string name="budget">预算剩余</string>
+    <string name="today_out">今日支出</string>
+    <string name="today_in">收入</string>
+    <string name="see_table">查看图表分析</string>
+    <string name="tab_out">支出</string>
+    <string name="other_option">其他</string>
+    <string name="food_option">餐饮</string>
+    <string name="transport_option">交通</string>
+    <string name="shopping_option">购物</string>
+    <string name="clothes_option">衣服</string>
+    <string name="necessities_option">日用品</string>
+    <string name="entertainment_option">娱乐</string>
+    <string name="snack_option">零食</string>
+    <string name="cigarette_wine_tea_option">烟酒茶</string>
+    <string name="study_option">学习</string>
+    <string name="hosptial_option">医疗</string>
+    <string name="house_option">住宅</string>
+    <string name="fuel_option">水电煤</string>
+    <string name="call_option">通讯</string>
+    <string name="affection_option">人情往来</string>
+    <string name="add_comment">添加备注</string>
+    <string name="delete">删除</string>
+    <string name="confirm">确认</string>
+    <string name="clear">清零</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

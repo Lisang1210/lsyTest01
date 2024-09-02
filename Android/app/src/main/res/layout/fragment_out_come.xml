@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag_record.OutComeFragment"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/frag_outcome_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/frag_outcome_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/ic_yanjiu_fs"
+            android:text="@string/other_option"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/frag_outcome_edit_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:inputType="number"
+            android:background="@color/white"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/frag_outcome_edit_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/frag_outcome_edit"
+        android:background="@color/grey_f3f3f3"/>
+
+    <GridView
+        android:id="@+id/frag_outcome_edit_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag_outcome_edit_line"
+        android:numColumns="5"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/frag_outcome_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:keyBackground="@color/grey_f3f3f3"
+        android:keyTextColor="@color/black"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:shadowRadius="0.0"
+        android:shadowColor="@color/white"
+        android:paddingTop="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/frag_outcome_keyboard"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_comment"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2024年8月31日"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>
